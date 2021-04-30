@@ -22,7 +22,7 @@ class Data:
         START += f"\n\nBy @MysteryBots ♥"
 
     # About Message
-    ABOUT = "**About This Bot** \n\nThis is an open source forwarded tag remover bot by @MysteryBots \n\nSource : [Click Here](https://github.com/MysteryBots/AnonBot) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Mყʂƚҽɾყ Bσყ](https://t.me/MysteryxD)"
+    ABOUT = "**About This Bot** \n\nThis is an forwarded tag remover bot by @Animemusicarchive6 \n\nBot stauts : [Click Here](https://t.me/Animemusicarchive6/3544) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Achu biju](https://t.me/Amalbiju154)"
 
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
@@ -34,10 +34,7 @@ class Data:
                 "You added OWNER_ID but not OWNER_NAME. You need to put both or neither"
             )
             print("Quitting the bot")
-            raise SystemExit
-
-	# Deploy Message
-    DEPLOY = '**Wanna create your own such bot??** \n\nThis is simple and open source bot. \nJust click below on source code and tap on "Deploy to Heroku" to create your own bot. \n\nClick Here for [Source Code](https://github.com/MysteryBots/AnonBot)'
+            raise SystemExix
 
     # Home Button
     home_button = [[InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]]
@@ -49,8 +46,7 @@ class Data:
     buttons = [
         [
             InlineKeyboardButton("🎪 About 🎪", callback_data="about"),
-            InlineKeyboardButton("Create your own", callback_data="deploy"),
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MysteryBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MysteryBotsChat")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/Animemusicarchive6")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/Yeageristbots")],
     ]
